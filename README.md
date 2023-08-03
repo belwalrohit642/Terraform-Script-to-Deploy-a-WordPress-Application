@@ -19,5 +19,8 @@ Once the initialization is complete, execute the `terraform plan` which  examine
 
 Finally, execute the `terraform  apply` command which  is used to apply the changes and provisions to the AWS resources defined in the configuration.
 
+![2](https://github.com/belwalrohit642/Terraform-Script-to-Deploy-a-WordPress-Application/assets/96739082/1c89adcf-004b-48b5-959a-3b0180ceb48e)
+
+
 After using `terraform apply`, you can double-check on your AWS Management Console to see what resources Terraform provisioned on AWS.
 
