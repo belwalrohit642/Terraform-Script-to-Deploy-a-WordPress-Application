@@ -27,8 +27,8 @@ After using `terraform apply`, you can double-check on your AWS Management Conso
 
 In the terraform script, the EC2 instance is launched with a specific key_name set to "demo". During the EC2 instance creation, an AWS key pair with the name "demo" is associated with the instance.<br>
 <br>
-To SSH connection to your EC2 instance used command below <br>
-ssh -i /path/to/demo.pem ec2-user@public_ip_of_ec2_instance
+To SSH connection to your EC2 instance used command below: <br>
+`ssh -i /path/to/demo.pem ec2-user@public_ip_of_ec2_instance`<br>
 <br>
 ![4](https://github.com/belwalrohit642/Terraform-Script-to-Deploy-a-WordPress-Application/assets/96739082/03fd055f-65a9-4053-88b7-feb7b40fed03)
 
