@@ -45,6 +45,7 @@ Once you connect to a MySQL server create a database `wordpress`. And `exit` fro
 ![5](https://github.com/belwalrohit642/Terraform-Script-to-Deploy-a-WordPress-Application/assets/96739082/f2cf8320-88de-4860-acd4-846f40e91fe4)
 
 Now Create a script that will install the docker on the Ec2 instance and start the docker service and pull the  WordPress official  image from the docker hub and runs a Docker container in the background (-d) with port mapping (-P) and It sets environment variables (-e) for a WordPress container to connect to a MySQL database hosted on the specified RDS instance. The environment variables define the database host, username, password, and database name.<br>
+<br>
 This Script you can find in  my Repositry<br>
 Give Execution Permission to the script and execute the script on Ec2.<br>
 
