@@ -8,6 +8,8 @@ git clone https://github.com/belwalrohit642/Terraform-Script-to-Deploy-a-WordPre
 
 After cloning the repository go inside the Repo folder and execute the `terraform init` command which initializes the working directory and sets up the necessary components for Terraform to manage the AWS resources defined in the script. 
 Terraform init command does several tasks such as Backend configuration, plugin installation, module installation, provider Initialization, and State Configuration.
+![1](https://github.com/belwalrohit642/Terraform-Script-to-Deploy-a-WordPress-Application/assets/96739082/bab1405e-9a17-4ed5-992f-988d71834866)
+
 
 Once the initialization is complete, execute the `terraform plan` which  examines the configuration and the current state of the infrastructure and generates an execution plan to show what actions Terraform will take to reach the desired state defined in the script. The terraform plan command is a dry run.
 
@@ -15,4 +17,3 @@ Finally, execute the `terraform  apply` command which  is used to apply the chan
 
 After using `terraform apply`, you can double-check on your AWS Management Console to see what resources Terraform provisioned on AWS.
 
-![1](https://github.com/belwalrohit642/Terraform-Script-to-Deploy-a-WordPress-Application/assets/96739082/bab1405e-9a17-4ed5-992f-988d71834866)
