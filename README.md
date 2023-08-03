@@ -7,7 +7,7 @@ Firstly Clone this repository on your locally
 git clone https://github.com/belwalrohit642/Terraform-Script-to-Deploy-a-WordPress-Application.git
 
 After cloning the repository go inside the Repo folder and execute the `terraform init` command which initializes the working directory and sets up the necessary components for Terraform to manage the AWS resources defined in the script. 
-Terraform init command does several tasks such as Backend configuration, plugin installation, module installation, provider Initialization, and State Configuration.
+Terraform init command does several tasks such as Backend configuration, plugin installation, module installation, provider Initialization, and State Configuration.<br>
 ![1](https://github.com/belwalrohit642/Terraform-Script-to-Deploy-a-WordPress-Application/assets/96739082/bab1405e-9a17-4ed5-992f-988d71834866)
 
 
