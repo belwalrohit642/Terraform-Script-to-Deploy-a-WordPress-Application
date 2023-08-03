@@ -58,5 +58,8 @@ Once the execution part of the script  is done you can check the running docker 
 
 One important step to do to access the WordPress website, you have to edit the inbound rules(Inbound rules control the incoming traffic that's allowed to reach the instance). Add an inbound rule of type custom TCP for a port range of '32768' for source MYIPaddress (mention your port number in which WordPress is listening) you will get this port number from the 'docker ps command.<br><br>
 ![7 1](https://github.com/belwalrohit642/Terraform-Script-to-Deploy-a-WordPress-Application/assets/96739082/35343731-fb63-4e7e-97ad-64ca68a5cbe0)
+<br>
+Now access WordPress using `http://elastic-ip-address:32768`<br>
 
+![9](https://github.com/belwalrohit642/Terraform-Script-to-Deploy-a-WordPress-Application/assets/96739082/ce2c6933-ffcd-40ff-9a6d-d1f0f2098ddd)
 
