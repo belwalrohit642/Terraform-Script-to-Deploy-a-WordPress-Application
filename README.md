@@ -25,7 +25,8 @@ Finally, execute the `terraform  apply` command which  is used to apply the chan
 
 After using `terraform apply`, you can double-check on your AWS Management Console to see what resources Terraform provisioned on AWS.
 
-In the terraform script, the EC2 instance is launched with a specific key_name set to "demo". During the EC2 instance creation, an AWS key pair with the name "demo" is associated with the instance.
+In the terraform script, the EC2 instance is launched with a specific key_name set to "demo". During the EC2 instance creation, an AWS key pair with the name "demo" is associated with the instance.<br>
+<br>
 To SSH connection to your EC2 instance used command below <br>
 ssh -i /path/to/demo.pem ec2-user@public_ip_of_ec2_instance
 <br>
