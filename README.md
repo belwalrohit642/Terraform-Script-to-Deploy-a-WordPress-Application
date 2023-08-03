@@ -46,7 +46,7 @@ Once you connect to a MySQL server create a database `wordpress`. And `exit` fro
 
 Now Create a script that will install the docker on the Ec2 instance and start the docker service and pull the  WordPress official  image from the docker hub and runs a Docker container in the background (-d) with port mapping (-P) and It sets environment variables (-e) for a WordPress container to connect to a MySQL database hosted on the specified RDS instance. The environment variables define the database host, username, password, and database name.<br>
 <br>
-This Script you can find in  my Repositry.<br>
+This Script you can find in  my repository.<br>
 <br>
 Give Execution Permission to the script and execute the script on Ec2.<br>
 
@@ -60,7 +60,7 @@ One important step to do to access the WordPress website, you have to edit the i
 ![7 1](https://github.com/belwalrohit642/Terraform-Script-to-Deploy-a-WordPress-Application/assets/96739082/35343731-fb63-4e7e-97ad-64ca68a5cbe0)
 <br>
 <br>
-Now access WordPress using `http://elastic-ip-address:32768`. And setup the WordPress login page and finally you get WordPress dashboard.<br>
+Now access WordPress using `http://elastic-ip-address:32768`. And set up the WordPress login page and finally you get the WordPress dashboard.<br>
 <br>
 ![9](https://github.com/belwalrohit642/Terraform-Script-to-Deploy-a-WordPress-Application/assets/96739082/ce2c6933-ffcd-40ff-9a6d-d1f0f2098ddd)
 <br>
@@ -70,7 +70,7 @@ Now Add phpmyadmin in deployment on the same instance, so that one can access Da
 ![10](https://github.com/belwalrohit642/Terraform-Script-to-Deploy-a-WordPress-Application/assets/96739082/05d9a907-1154-402a-9126-727e41ebea84)
 <br>
 
-To access phpmyadmin page used this url  `http://elastic-ipaddress:8080`.<br>
+To access phpmyadmin page used this URL  `http://elastic-ipaddress:8080`. And fill the login page with the URL of the AWS RDS endpoint, with username and with password<br>
 <br>
 ![11](https://github.com/belwalrohit642/Terraform-Script-to-Deploy-a-WordPress-Application/assets/96739082/0a531ca3-7d35-41a9-ba13-92a867a165a9)<br>
 
