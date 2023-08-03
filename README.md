@@ -38,7 +38,6 @@ To connect with the AWS RDS first, we have to install the `MySQL client` on the 
 
 Once installation is completed used the below command to connect to a MySQL server hosted at the specified RDS (Amazon Relational Database Service) endpoint.<br>
 `mysql -h aws-rds-endpoint -u admin -p`<br>   
-<br>
 Here replace `aws-rds-endpoint` with your AWS RDS Endpoint<br>
 <br>
 Once you connect to a MySQL server create a database `wordpress`<br>
