@@ -40,10 +40,16 @@ Once installation is completed used the below command to connect to a MySQL serv
 `mysql -h aws-rds-endpoint -u admin -p`<br>   
 Here replace `aws-rds-endpoint` with your AWS RDS Endpoint<br>
 <br>
-Once you connect to a MySQL server create a database `wordpress`.And `exit` from the MySQL server <br> 
+Once you connect to a MySQL server create a database `wordpress`. And `exit` from the MySQL server <br> 
 <br>
 ![5](https://github.com/belwalrohit642/Terraform-Script-to-Deploy-a-WordPress-Application/assets/96739082/f2cf8320-88de-4860-acd4-846f40e91fe4)
 
+Now Create a script that will install the docker on the Ec2 instance and start the docker service and pull the  WordPress official  image from the docker hub and runs a Docker container in the background (-d) with port mapping (-P) and It sets environment variables (-e) for a WordPress container to connect to a MySQL database hosted on the specified RDS instance. The environment variables define the database host, username, password, and database name.<br>
+<br>
+Give Execution Permission to the script and execute the script on Ec2.<br>
+<br>
+
+![6](https://github.com/belwalrohit642/Terraform-Script-to-Deploy-a-WordPress-Application/assets/96739082/169b6cd9-1cd3-40c7-ab7f-fdb9fa7c1ed1)
 
 
 
