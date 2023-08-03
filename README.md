@@ -65,3 +65,7 @@ Now access WordPress using `http://elastic-ip-address:32768`. And setup the Word
 ![9](https://github.com/belwalrohit642/Terraform-Script-to-Deploy-a-WordPress-Application/assets/96739082/ce2c6933-ffcd-40ff-9a6d-d1f0f2098ddd)
 <br>
 
+Now Add phpmyadmin in deployment on the same instance, so that one can access Database.<br>
+<br>
+![10](https://github.com/belwalrohit642/Terraform-Script-to-Deploy-a-WordPress-Application/assets/96739082/05d9a907-1154-402a-9126-727e41ebea84)
+
