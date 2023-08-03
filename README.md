@@ -60,7 +60,8 @@ One important step to do to access the WordPress website, you have to edit the i
 ![7 1](https://github.com/belwalrohit642/Terraform-Script-to-Deploy-a-WordPress-Application/assets/96739082/35343731-fb63-4e7e-97ad-64ca68a5cbe0)
 <br>
 <br>
-Now access WordPress using `http://elastic-ip-address:32768`. And setup the WordPress login page and finally you get WordPress dashboard <br>
+Now access WordPress using `http://elastic-ip-address:32768`. And setup the WordPress login page and finally you get WordPress dashboard.<br>
+<br>
 ![9](https://github.com/belwalrohit642/Terraform-Script-to-Deploy-a-WordPress-Application/assets/96739082/ce2c6933-ffcd-40ff-9a6d-d1f0f2098ddd)
 <br>
 
