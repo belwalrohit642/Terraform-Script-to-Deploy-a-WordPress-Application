@@ -40,9 +40,11 @@ Once installation is completed used the below command to connect to a MySQL serv
 `mysql -h aws-rds-endpoint -u admin -p`<br>   
 Here replace `aws-rds-endpoint` with your AWS RDS Endpoint<br>
 <br>
-Once you connect to a MySQL server create a database `wordpress`<br>
+Once you connect to a MySQL server create a database `wordpress`.And `exit` from the MySQL server <br> 
 <br>
 ![5](https://github.com/belwalrohit642/Terraform-Script-to-Deploy-a-WordPress-Application/assets/96739082/f2cf8320-88de-4860-acd4-846f40e91fe4)
+
+
 
 
 
