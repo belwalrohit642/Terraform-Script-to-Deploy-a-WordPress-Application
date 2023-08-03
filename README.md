@@ -68,6 +68,11 @@ Now access WordPress using `http://elastic-ip-address:32768`. And setup the Word
 Now Add phpmyadmin in deployment on the same instance, so that one can access Database. Run the docker container of `phpmyadmin` in the background (-d) with port mapping (-P). And for this also you have to edit the inbound rules as we have done for WordPress. <br>
 <br>
 ![10](https://github.com/belwalrohit642/Terraform-Script-to-Deploy-a-WordPress-Application/assets/96739082/05d9a907-1154-402a-9126-727e41ebea84)
+<br>
+
+To access phpmyadmin page used this url  `http://elastic-ipaddress:8080`.<br>
+<br>
+![11](https://github.com/belwalrohit642/Terraform-Script-to-Deploy-a-WordPress-Application/assets/96739082/0a531ca3-7d35-41a9-ba13-92a867a165a9)<br>
 
 
 
