@@ -27,8 +27,19 @@ After using `terraform apply`, you can double-check on your AWS Management Conso
 
 In the terraform script, the EC2 instance is launched with a specific key_name set to "demo". During the EC2 instance creation, an AWS key pair with the name "demo" is associated with the instance.<br>
 <br>
-To SSH connection to your EC2 instance used command below: <br>
+To SSH connection to your EC2 instance using the below command: <br>
 `ssh -i /path/to/demo.pem ec2-user@public_ip_of_ec2_instance`<br>
 <br>
 ![4](https://github.com/belwalrohit642/Terraform-Script-to-Deploy-a-WordPress-Application/assets/96739082/03fd055f-65a9-4053-88b7-feb7b40fed03)
+<br>
+
+To connect with the AWS RDS first, we have to install the `MySQL client` on the instance using the below command: <br>
+`sudo apt install mysql-client` <br>
+
+Once installation is completed used the below command to connect to a MySQL server hosted at the specified RDS (Amazon Relational Database Service) endpoint.<br>
+`mysql -h <aws-rds-endpoint> -u admin -p<br>
+<br>
+![5](https://github.com/belwalrohit642/Terraform-Script-to-Deploy-a-WordPress-Application/assets/96739082/f2cf8320-88de-4860-acd4-846f40e91fe4)
+
+
 
